@@ -18,7 +18,7 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
 
-      <div className="w-full max-w-3xl px-4 bg-white bg-opacity-80 backdrop-blur-md rounded-lg p-6">
+      <div className="w-full max-w-3xl px-4 bg-white bg-opacity-80 backdrop-blur-md p-6">
         <Image
           src="/Sendigologo.svg"
           alt="Sendigo Logo"
@@ -31,6 +31,7 @@ export default function Home() {
         <h1 className="text-xl sm:text-2xl font-bold">
           Något stort är på gång
         </h1>
+        <p>Snart billig frakt för alla</p>
         <p className="text-3xl sm:text-5xl mt-2 text-black">
           Vart vill du skicka?
         </p>
