@@ -5,8 +5,20 @@ import Countdown from "./components/countdown";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white text-center p-4 text-black">
-      <div className="w-full max-w-3xl px-4">
+    <main className="relative flex min-h-screen flex-col items-center justify-center text-center p-4 text-black">
+      {/* Bakgrundsvideo */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+      >
+        <source src="/rolling.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="w-full max-w-3xl px-4 bg-white bg-opacity-80 backdrop-blur-md rounded-lg p-6">
         <Image
           src="/Sendigologo.svg"
           alt="Sendigo Logo"
