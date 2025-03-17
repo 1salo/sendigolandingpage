@@ -45,7 +45,7 @@ export default function Home() {
             Instagram
           </a>
         </p>
-        <p className="mt-10">VI SES SNART // Johan & William Salomonsson</p>
+        <p className="mt-10">VI SES SNART // Johan & William</p>
       </div>
     </main>
   );

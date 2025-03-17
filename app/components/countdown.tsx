@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 export default function Countdown() {
-  const targetDate = new Date("2025-03-21T00:00:00");
+  const targetDate = new Date("2025-04-11T00:00:00");
 
   // State för tid kvar
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
