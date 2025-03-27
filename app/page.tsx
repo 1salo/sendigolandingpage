@@ -39,7 +39,7 @@ export default function Home() {
         <p className="mt-4 text-xs sm:text-sm text-gray-600">
           Följ oss på{" "}
           <a
-            href="https://www.instagram.com/sendigo_sverige/"
+            href="https://www.instagram.com/sendigo.se/"
             className="underline hover:text-blue-500"
           >
             Instagram
